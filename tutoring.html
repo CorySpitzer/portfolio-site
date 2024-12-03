@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Tutoring - Cory Spitzer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/tutoring.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="js/main.js" defer></script>
+</head>
+<body class="light-mode">
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="logo">Cory Spitzer</div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="tutoring.html" class="active">Math Tutoring</a></li>
+                <li><a href="index.html#writing">Writing</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="tutoring-page">
+        <section class="hero tutoring-hero">
+            <div class="container">
+                <h1>Math Tutoring Services</h1>
+                <p class="lead">Empowering students to master mathematics through personalized instruction</p>
+            </div>
+        </section>
+
+        <section class="subjects-section">
+            <div class="container">
+                <h2>Subjects Covered</h2>
+                <div class="subjects-grid">
+                    <div class="subject-card">
+                        <h3>Algebra</h3>
+                        <ul>
+                            <li>Pre-Algebra</li>
+                            <li>Algebra I & II</li>
+                            <li>Linear Equations</li>
+                            <li>Quadratic Functions</li>
+                        </ul>
+                    </div>
+                    <div class="subject-card">
+                        <h3>Calculus</h3>
+                        <ul>
+                            <li>Pre-Calculus</li>
+                            <li>Calculus I, II, & III</li>
+                            <li>Differential Equations</li>
+                            <li>Multivariable Calculus</li>
+                        </ul>
+                    </div>
+                    <div class="subject-card">
+                        <h3>Advanced Topics</h3>
+                        <ul>
+                            <li>Linear Algebra</li>
+                            <li>Discrete Mathematics</li>
+                            <li>Number Theory</li>
+                            <li>Abstract Algebra</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="approach-section">
+            <div class="container">
+                <h2>My Approach</h2>
+                <div class="approach-content">
+                    <div class="approach-text">
+                        <p>I believe in making mathematics accessible and engaging for every student. My teaching approach focuses on:</p>
+                        <ul>
+                            <li>Building strong foundational understanding</li>
+                            <li>Developing problem-solving skills</li>
+                            <li>Connecting concepts to real-world applications</li>
+                            <li>Fostering mathematical confidence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-section">
+            <div class="container">
+                <h2>Book a Session</h2>
+                <div class="booking-content">
+                    <div class="session-types">
+                        <div class="session-card">
+                            <h3>One-on-One Sessions</h3>
+                            <p>Personalized attention and customized learning plans</p>
+                            <ul>
+                                <li>60 or 90-minute sessions</li>
+                                <li>Flexible scheduling</li>
+                                <li>Online or in-person options</li>
+                                <li>Progress tracking</li>
+                            </ul>
+                        </div>
+                        <div class="session-card">
+                            <h3>Group Sessions</h3>
+                            <p>Collaborative learning environment for 2-4 students</p>
+                            <ul>
+                                <li>90-minute sessions</li>
+                                <li>Shared learning experience</li>
+                                <li>Cost-effective option</li>
+                                <li>Peer interaction</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cta-section">
+                        <a href="#contact" class="cta-button">Schedule a Free Consultation</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-content">
+                    <form class="contact-form" id="tutoring-contact">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="algebra">Algebra</option>
+                                <option value="calculus">Calculus</option>
+                                <option value="advanced">Advanced Topics</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cory Spitzer. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

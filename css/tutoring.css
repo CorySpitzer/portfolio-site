@@ -1,0 +1,218 @@
+/* Tutoring Page Styles */
+.tutoring-page {
+    padding-top: var(--nav-height);
+}
+
+.tutoring-hero {
+    background: linear-gradient(135deg, var(--accent-color) 0%, #a6c1ee 100%);
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.tutoring-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Subjects Section */
+.subjects-section {
+    padding: 4rem 0;
+}
+
+.subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.subject-card {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px var(--card-shadow);
+    transition: transform 0.3s ease;
+}
+
+.subject-card:hover {
+    transform: translateY(-5px);
+}
+
+.subject-card h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.subject-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.subject-card li {
+    margin: 0.5rem 0;
+    color: var(--text-secondary);
+}
+
+/* Approach Section */
+.approach-section {
+    background-color: var(--bg-secondary);
+    padding: 4rem 0;
+}
+
+.approach-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.approach-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.approach-text ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.approach-text li {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.approach-text li::before {
+    content: "•";
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+}
+
+/* Booking Section */
+.booking-section {
+    padding: 4rem 0;
+}
+
+.session-types {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.session-card {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px var(--card-shadow);
+}
+
+.session-card h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.session-card p {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
+
+.session-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.session-card li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.session-card li::before {
+    content: "✓";
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+}
+
+.cta-section {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: var(--bg-secondary);
+    padding: 4rem 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: inherit;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #5a8ee0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tutoring-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .subjects-grid,
+    .session-types {
+        grid-template-columns: 1fr;
+    }
+
+    .approach-content {
+        padding: 0 1rem;
+    }
+}
