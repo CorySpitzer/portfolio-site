@@ -29,49 +29,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Project Cards Data
-const projectsData = [
-    {
-        title: "Project 1",
-        description: "Description of your first project. Highlight the key features and technologies used.",
-        image: "path/to/project1-image.jpg",
-        link: "#portfolio"
-    },
-    {
-        title: "Project 2",
-        description: "Description of your second project. Showcase your skills and achievements.",
-        image: "path/to/project2-image.jpg",
-        link: "#portfolio"
-    },
-    // Add more projects as needed
-];
-
-// Generate Project Cards
-function generateProjectCards() {
-    const projectCardsContainer = document.querySelector('.project-cards');
-    
-    projectsData.forEach(project => {
-        const card = document.createElement('div');
-        card.className = 'project-card';
-        
-        card.innerHTML = `
-            <div class="project-image">
-                <img src="${project.image}" alt="${project.title}" />
-            </div>
-            <div class="project-info">
-                <h3>${project.title}</h3>
-                <p>${project.description}</p>
-                <a href="${project.link}" class="project-link">Learn More</a>
-            </div>
-        `;
-        
-        projectCardsContainer.appendChild(card);
-    });
-}
-
-// Initialize project cards when DOM is loaded
-document.addEventListener('DOMContentLoaded', generateProjectCards);
-
 // Hamburger menu functionality
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger');
