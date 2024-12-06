@@ -65,9 +65,9 @@ portfolio-site/
 
 The site is deployed using GitHub Pages and can be accessed at [coryspitzer.github.io/portfolio-site](https://coryspitzer.github.io/portfolio-site).
 
-## License
+## Copyright
 
-This project is open source and available under the [MIT License](LICENSE).
+© 2024 Cory Spitzer
 
 ## Contact
 
