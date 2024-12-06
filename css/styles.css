@@ -244,7 +244,7 @@ main {
 
 .project-card {
     background: var(--bg-secondary);
-    border-radius: 12px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px var(--card-shadow);
     transition: transform var(--transition-speed), box-shadow var(--transition-speed);
@@ -265,6 +265,7 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top center;
     transition: transform var(--transition-speed);
 }
 
