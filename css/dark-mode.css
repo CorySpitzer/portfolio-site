@@ -25,4 +25,8 @@
     color: var(--text-secondary);
 }
 
+.dark-mode .writing-links a {
+    color: #e0e0e0;
+}
+
 /* Adjust other dark mode specific styles as needed */
