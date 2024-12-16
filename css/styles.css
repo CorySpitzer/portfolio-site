@@ -65,6 +65,12 @@ body {
     font-weight: 600;
 }
 
+.logo a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .nav-controls {
     display: flex;
     align-items: center;
