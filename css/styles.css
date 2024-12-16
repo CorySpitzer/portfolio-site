@@ -135,7 +135,7 @@ main {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    /* min-height: 30vh; */
     padding-top: var(--nav-height);
     position: relative;
     overflow: hidden;
@@ -198,7 +198,8 @@ main {
 .bio-text {
     font-size: 1.2rem;
     color: var(--text-secondary);
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-bottom: 10rem;
 }
 
 .cta-buttons {
