@@ -198,7 +198,7 @@ main {
 .bio-text {
     font-size: 1.2rem;
     color: var(--text-secondary);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .cta-buttons {
