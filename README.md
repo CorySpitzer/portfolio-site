@@ -80,7 +80,7 @@ The site is deployed using GitHub Pages and can be accessed at [coryspitzer.gith
 
 ## Copyright
 
- 2024 Cory Spitzer
+©2024 Cory Spitzer
 
 ## Contact
 
