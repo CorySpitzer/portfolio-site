@@ -23,11 +23,21 @@ A modern, responsive portfolio website built with vanilla web technologies. Feat
 ```
 portfolio-site/
 ├── index.html          # Main portfolio page
+├── contact.html        # Contact information page
+├── tutoring.html       # Math tutoring services page
+├── writing.html        # Writing portfolio page
 ├── css/
-│   └── styles.css      # Stylesheet with responsive design
+│   ├── styles.css      # Main stylesheet with responsive design
+│   ├── dark-mode.css   # Dark mode specific styles
+│   └── tutoring.css    # Tutoring page specific styles
 ├── js/
-│   └── main.js         # JavaScript for interactivity
-└── images/             # Project and profile images
+│   └── main.js         # JavaScript for interactivity and animations
+├── images/
+│   ├── headshot.jpg              # Profile image
+│   ├── Math-Advice-Screenshot.PNG # Project screenshot
+│   ├── math-advice-screenshot2.PNG# Alternative project view
+│   └── portfolio-screenshot.PNG   # Portfolio site screenshot
+└── README.md          # Project documentation
 ```
 
 ## Setup and Usage
@@ -40,8 +50,10 @@ portfolio-site/
 2. Open `index.html` in your web browser to view the site locally.
 
 3. To make changes:
-   - Modify HTML in `index.html`
-   - Update styles in `css/styles.css`
+   - Modify HTML in any of the .html files
+   - Update main styles in `css/styles.css`
+   - Adjust dark mode styles in `css/dark-mode.css`
+   - Edit tutoring page styles in `css/tutoring.css`
    - Edit JavaScript functionality in `js/main.js`
 
 ## Features in Detail
@@ -55,6 +67,7 @@ portfolio-site/
 - Mobile-first approach
 - Flexible grid layouts
 - Optimized for all screen sizes
+- Responsive navigation with hamburger menu
 
 ### Project Showcase
 - Clean project card layout
@@ -67,7 +80,7 @@ The site is deployed using GitHub Pages and can be accessed at [coryspitzer.gith
 
 ## Copyright
 
-© 2024 Cory Spitzer
+©2024 Cory Spitzer
 
 ## Contact
 

@@ -35,4 +35,12 @@
     text-decoration: underline;
 }
 
-/* Adjust other dark mode specific styles as needed */
+.dark-mode a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.dark-mode a:hover {
+    text-decoration: underline;
+}
+
