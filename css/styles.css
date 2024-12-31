@@ -509,6 +509,17 @@ main {
     opacity: 0.9;
 }
 
+footer {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer .copyright {
+    color: var(--text-secondary);
+    text-align: center;
+    width: 100%;
+}
+
 /* Responsive Design */
 @media (max-width: 769px) {
     .profile-section {
