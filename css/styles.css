@@ -30,6 +30,14 @@ body {
     color: var(--text-primary);
     background-color: var(--bg-primary);
     transition: background-color var(--transition-speed), color var(--transition-speed);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding-top: var(--nav-height);
+    flex: 1;
 }
 
 .container {
@@ -125,9 +133,6 @@ body {
 }
 
 /* Main content padding */
-main {
-    padding-top: var(--nav-height);
-}
 
 /* Theme Toggle */
 .theme-toggle button {
@@ -512,6 +517,7 @@ main {
 footer {
     padding: 2rem 0;
     text-align: center;
+    margin-top: auto;
 }
 
 footer .copyright {
