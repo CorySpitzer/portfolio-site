@@ -5,6 +5,7 @@
     --text-secondary: #a0a0a0;
     --border-color: #404040;
     --card-shadow: rgba(0, 0, 0, 0.3);
+    --accent-color: #3498db;
 }
 
 .dark-mode {
@@ -23,6 +24,15 @@
 .dark-mode .image-placeholder {
     background-color: var(--bg-secondary);
     color: var(--text-secondary);
+}
+
+.dark-mode a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.dark-mode a:hover {
+    text-decoration: underline;
 }
 
 /* Adjust other dark mode specific styles as needed */
