@@ -3,12 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggleBtn = document.getElementById('theme-toggle-btn');
     const body = document.body;
 
-    // Check for saved theme preference
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-        body.classList.toggle('dark-mode', savedTheme === 'dark');
-        document.documentElement.setAttribute('data-theme', savedTheme);
-    }
+    // Check for saved theme preference, default to dark if none saved
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    body.classList.toggle('dark-mode', savedTheme === 'dark');
+    document.documentElement.setAttribute('data-theme', savedTheme);
 
     themeToggleBtn.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
